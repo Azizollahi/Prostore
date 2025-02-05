@@ -6,7 +6,6 @@ import { APP_NAME } from '@/lib/constants'
 import { Metadata } from 'next'
 import { auth } from '@/auth'
 import { redirect } from 'next/navigation'
-import CredentialsSignUpForm from './sign-up-form'
 import SignUpForm from './sign-up-form'
 
 export const metadata: Metadata = {
